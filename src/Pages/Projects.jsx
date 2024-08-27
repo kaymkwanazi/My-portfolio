@@ -9,14 +9,15 @@ export const Projects = () => {
           <div className='absolute inset-0 flex flex-col items-center justify-center'>
             <div className='container mx-auto px-4'>
                 <div>
-                    <h3 className='text-center pt-36 mb-10 text-2xl md:text-4xl text-white'>My Project</h3>
+                    <h3 className='text-center pt-36 mb-10 text-2xl md:text-4xl text-white'>My Projects</h3>
                     <p className='text-white text-lg md:text-xl'>I have worked on various projects while I was a student. I've recently joined the 
                       Tshimologong Samsung sofware development program and here are some of the projects I have done thus far.
                     </p>
                 </div>
-                <div className='flex sm:flex-row sm:flex-wrap sm:justify-between'>
-                  <div>
-                  
+                <div className=''>
+                  <div className='grid md:cols-3'>
+                    <div className='text-white pt-10'>Project 1</div>
+                    <div className='text-white pt-10'>Project 1</div>
                   </div>
                 </div>
             </div>

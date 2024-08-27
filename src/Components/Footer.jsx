@@ -1,7 +1,8 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa'
+import { FaCopyright, FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import logo from '../images/logo.png'
+import { FaRegCopyright } from 'react-icons/fa6'
 
 export const Footer = () => {
   return (
@@ -14,7 +15,7 @@ export const Footer = () => {
          
           <div className='flex flex-col md:items-center'>
                 <h2 className='text-lg font-semibold'>Quick Links</h2>
-                <div className='flex flex-col mt-4 space-y-4'>
+                <div className='flex flex-col text-sm mt-4 space-y-4'>
                     <Link to= '/'>Home</Link>
                     <Link to= '/about'>About</Link>
                     <Link to= '/projects'>Gallery</Link>
@@ -34,7 +35,7 @@ export const Footer = () => {
       </div>
 
       <div className='text-center border-t pt-5 mt-5'>
-        <p> Kamogelo Patience Mkwanazi. 2024. All rights reserved.</p>
+        <p><FaRegCopyright size={10} className='inline'/> Kamogelo Patience Mkwanazi. 2024. All rights reserved.</p>
       </div>
     </div>
   )

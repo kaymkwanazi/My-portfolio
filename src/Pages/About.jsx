@@ -12,7 +12,7 @@ export const About = () => {
             style={{backgroundImage: `url(${backgroundPic})`}}>
             <div className='container mx-auto px-4'>
                 <div>
-                    <h3 className='text-center pt-36 mb-10 text-2xl md:text-4xl text-white'>About Me</h3>
+                    <h3 className='text-center pt-28 mb-10 text-2xl md:text-4xl text-white'>About Me</h3>
                     <p className='text-white text-lg md:text-xl'>My name is Kamogelo Patience Mkwanazi, a passionate and dedicated Computer Systems Engineer with a love for web development.
                         My journey began at the Tshwane University of Technology where I discovered my love for technology. Since then, I've had an
                         opportunity to work on various projects. Currently I'm focused on web development, mainly front-end development.
