@@ -20,10 +20,12 @@ export const Navbar = () => {
                     <button className='bg-violet-400 py-3 px-3 rounded-lg hover:text-white'>Contact</button>
                 </Link>
             </div>
-            <div className='md:hidden '>
+            <div className='md:hidden flex space-x-4 text-sm font-bold items-center '>
                 <button onClick={() => setOpen(!isOpen)}>
                     {isOpen ? <FaTimes />: <FaBars />}
+
                 </button>
+        
             </div>
         </div>
         {isOpen && (

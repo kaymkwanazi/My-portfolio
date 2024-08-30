@@ -20,15 +20,16 @@ export const About = () => {
                 
                 <div>
                     <h3 className='text-center pt-20 mb-10 text-2xl md:text-4xl text-white'>My Skills</h3>
-                    <div className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-between">
+                   
+                </div>
+                <div className="grid cols-1 md:grid-cols-3 gap-10 items-center justify-center">
                         <p className='text-white text-2xl'><FaReact className='text-blue-500 transform transition duration-300 hover:scale-110'/>React.js</p>
-                        <p className='text-white text-2xl'><FaHtml5 className='text-blue-500 transform transition duration-300 hover:scale-110'/>HTML</p>
+                        <p className='text-white py-6 text-2xl'><FaHtml5 className='text-blue-500 transform transition duration-300 hover:scale-110'/>HTML</p>
                         <p className='text-white text-2xl'><FaCss3 className='text-blue-500 transform transition duration-300 hover:scale-110'/>CSS</p>
                         <p className='text-white text-2xl'><TbAugmentedReality className='text-blue-500 transform transition duration-300 hover:scale-110' />Extended Reality</p>
                         <p className='text-white text-2xl'><RiTailwindCssFill className='text-blue-500 transform transition duration-300 hover:scale-110'/>Tailwindcss</p>
                         <p className='text-white text-2xl'><BiSupport className='text-blue-500 transform transition duration-300 hover:scale-110'/>User Support</p>
                     </div>
-                </div>
             </div>
 
         </div>
