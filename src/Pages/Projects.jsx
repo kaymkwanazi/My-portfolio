@@ -14,12 +14,17 @@ export const Projects = () => {
                       Tshimologong Samsung sofware development program and here are some of the projects I have done thus far.
                     </p>
                 </div>
-                <div className=''>
-                  <div className='grid md:cols-3'>
-                    <div className='text-white pt-10'>Project 1</div>
-                    <div className='text-white pt-10'>Project 1</div>
-                  </div>
                 </div>
+                <div className='container mx-auto px-4'>
+                    <div className='flex justify-center'>
+                      <div className='flex gap-10 cols-1 md:cols-3'>
+                        <div className='text-white pt-10'>Project 1</div>
+                        <div className='text-white pt-10'>Project 2</div>
+                        <div className='text-white pt-10'>Project 3</div>
+                        <div className='text-white pt-10'>Project 4</div>
+                        <div className='text-white pt-10'>Project 5</div>
+                      </div>
+                    </div>
             </div>
           </div>
         </div>
