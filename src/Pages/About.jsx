@@ -10,7 +10,7 @@ export const About = () => {
     <div>
         <div className='relative h-screen bg-cover bg-center' 
             style={{backgroundImage: `url(${backgroundPic})`}}>
-            <div className='container mx-auto px-4'>
+            <div className='md:container mx-auto px-4'>
                 <div>
                     <h3 className='text-center pt-28 mb-10 text-2xl md:text-4xl text-white'>About Me</h3>
                     <p className='text-white text-lg md:text-xl'>My name is Kamogelo Patience Mkwanazi, a passionate and dedicated Computer Systems Engineer with a love for web development.
