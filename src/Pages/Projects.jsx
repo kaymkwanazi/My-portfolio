@@ -24,20 +24,20 @@ export const Projects = () => {
                       <div className='grid cols-1 md:grid-cols-3 gap-20'>
                         <div>
                             <div className='text-white font-semibold pt-5 flex justify-center md:pt-10 text-4xl md:text-2xl'>Movie Blog</div>
-                            <img src={movieBlog} className='shadow-teal-300 shadow-[20px_30px_5px_2px_rgba(0,0,0,0.3)] py-2 px-2 mt-5 rounded-3xl'></img>
+                            <img src={movieBlog} className='shadow-violet-400 shadow-[20px_20px_5px_2px_rgba(0,0,0,0.3)] py-2 px-2 mt-5 rounded-3xl'></img>
                         </div>
                         <div>
                              <div className='text-white flex justify-center font-semibold text-4xl md:text-2xl pt-5 md:pt-10'>Dronotics</div>
-                             <img src={travel} className='shadow-teal-300 shadow-[20px_40px_5px_2px_rgba(0,0,0,0.3)] py-2 px-2 mt-5 rounded-3xl'></img>
+                             <img src={travel} className='shadow-violet-400 shadow-[20px_20px_5px_2px_rgba(0,0,0,0.3)] py-2 px-2 mt-5 rounded-3xl'></img>
                         </div>
                         <div>
                             <div className='text-white font-semibold flex justify-center pt-5 text-4xl md:text-2xl md:pt-10'>Destinations</div>
-                            <img src={melula} className='shadow-teal-300 shadow-[20px_40px_5px_2px_rgba(0,0,0,0.3)] py-2 px-2 mt-5 rounded-3xl'></img>
+                            <img src={melula} className='shadow-violet-400 shadow-[20px_20px_5px_2px_rgba(0,0,0,0.3)] py-2 px-2 mt-5 rounded-3xl'></img>
                         </div>
-                        <div>
+                        {/* <div>
                             <div className='text-white font-semibold flex justify-center pt-5 text-4xl md:text-2xl md:pt-10'>Destinations</div>
-                            <img src={melula} className='shadow-teal-300 shadow-[20px_40px_5px_2px_rgba(0,0,0,0.3)] py-2 px-2 mt-5 rounded-3xl'></img>
-                        </div>
+                            <img src={melula} className='shadow-violet-400 shadow-[20px_40px_5px_2px_rgba(0,0,0,0.3)] py-2 px-2 mt-5 rounded-3xl'></img>
+                        </div> */}
                       </div>
                     </div>
             </div>

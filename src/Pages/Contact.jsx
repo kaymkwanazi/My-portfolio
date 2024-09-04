@@ -26,7 +26,7 @@ export const Contact = () => {
                     </div>
                     <div className='flex items-center mb-4'>
                         <FaMapLocationDot className='text-blue-500 mr-2' />
-                        <p>10968 Mangai street, Pimville Soweto, South Africa</p>
+                        <p> 10968 Mangai street, Pimville <br></br> Soweto, South Africa</p>
                     </div>
                     </div>
 
