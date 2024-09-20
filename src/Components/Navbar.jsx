@@ -7,7 +7,7 @@ export const Navbar = () => {
     const [isOpen, setOpen] = useState (false);
 
   return (
-    <nav className='fixed m-4 top-0 right-0 left-0 shadow-lg z-50 bg-slate-300'>
+    <nav className='absolute m-4 top-0 right-0 left-0 shadow-lg z-50 bg-slate-300'>
         <div className='container px-4 flex justify-between items-center h-16'>
         <Link to='/'>
             <img className= 'w-10' src={logo}></img>
