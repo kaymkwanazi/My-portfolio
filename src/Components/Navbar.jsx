@@ -7,7 +7,7 @@ export const Navbar = () => {
     const [isOpen, setOpen] = useState (false);
 
   return (
-    <nav className='absolute m-4 top-0 right-0 left-0 shadow-lg z-50 bg-slate-300'>
+    <nav className='absolute w-full z-50 bg-slate-300'>
         <div className='container px-4 flex justify-between items-center h-16'>
         <Link to='/'>
             <img className= 'w-10' src={logo}></img>
@@ -29,12 +29,12 @@ export const Navbar = () => {
             </div>
         </div>
         {isOpen && (
-            <div className='hidden md:flex space-x-4 text-sm font-bold items-center'> 
+            <div className='flex flex-col md:hidden space-y-5 text-sm font-bold items-center my-3'> 
                 <Link to='/' className='px-6 py-2 hover:bg-gray-500 hover:text-white'>Home</Link>
                 <Link to='/about' className='px-6 py-2 hover:bg-gray-500 hover:text-white'>About</Link>
                 <Link to='/projects' className='px-6 py-2 hover:bg-gray-500 hover:text-white'>Projects</Link>
                 <Link to='/contact'>
-                    <button className='bg-gray-400 py-2 px-2 hover:text-white'>Contact</button>
+                    <button className=' py-2 px-2 hover:bg-gray-500 hover:text-white'>Contact</button>
                 </Link>
             </div>
 

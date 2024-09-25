@@ -4,28 +4,42 @@ import kamo from '../images/Kamo.jpg'
 import { Link } from 'react-router-dom'
 import Slideshow from '../Components/Slideshow'
 import { FaArrowRight } from 'react-icons/fa'
+import { MdWavingHand } from 'react-icons/md'
+import { AboutComp } from '../Components/AboutComp'
 
 export const Home = () => {
   return (
     <>
-        <div className='relative h-screen bg-cover bg-center'
-            style={{backgroundImage: `url(${backgroundPic})`}}>
-
-            <div className='absolute inset-0 flex flex-col items-center justify-center'>
-                <div className='container mx-auto px-4 mt-48 flex justify-center'>
-                    <img src = {kamo} className='w-40 rounded-3xl shadow-violet-600 mb-10 mt-8 shadow-[20px_20px_5px_5px_rgba(0,0,0,0.3)] px-2 py-2'></img>
+    <div className='relative min-h-screen bg-cover bg-center'
+        style={{backgroundImage: `url(${backgroundPic})`}}>
+        <div className='flex flex-col justify-center min-h-screen pb-16'>
+            <div className='container mx-auto px-4'>
+                <div className='grid cols-1 md:grid-cols-2'>
+                    <div className='flex justify-center'>
+                        <img src={kamo} className='w-1/2 h-3/4  mt-24 rounded-3xl'></img>
+                    </div>    
+                    <div className='flex flex-col justify-center text-center'> 
+                        <h1 className='text-white text-2xl md:text-5xl '><MdWavingHand size={42} className='inline text-yellow-400'/> Hey there, I'm Kamogelo Mkwanazi</h1>
+                        <p className='text-white text-xl md:text-xl pt-10'>A passionate front-end software developer using React and Node.js. 
+                            Check out my projects below to see how I bring creativity and problem-solving together in code.
+                        </p>
+                    </div>  
                 </div>
-                <h1 className='text-4xl md:text-6xl font-bold text-white mb-6'>Hey there, I'm a frontend software developer</h1>
-                <p className='text-xl md:text-2xl text-white mb-16'>Browse through, I guarantee you'll find something you like.</p>
-                <div>
-                <Slideshow />
-                <Link to = '/projects'>
-                    <p className='text-center mt-10 mb-20 text-white'>Previous Projects  <FaArrowRight className='inline' /></p>
-                </Link>
+                <div className='flex flex-col items-center '>
+                    <Slideshow />
+                   <Link to = '/projects'>
+                        <p className='text-center mt-5 text-white'>Previous Projects  <FaArrowRight className='inline' /></p>
+                    </Link>
+                </div>
+                <div className='container mx-auto px-10 mt-20'>
+                    <AboutComp />
+                </div>
+                
             </div>
-            </div>
+        </div> 
+          
+    </div>
             
-        </div>
     </>
   )
 }
