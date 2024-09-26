@@ -15,7 +15,6 @@ export const About = () => {
                     <p className='text-white text-center text-lg md:text-xl'>My name is Kamogelo Patience Mkwanazi, a passionate and dedicated Computer Systems Engineer with a love for web development.
                         My journey began at the Tshwane University of Technology where I discovered my love for technology. Since then, I've had an
                         opportunity to work on various projects. Currently I'm focused on web development, mainly front-end development. I love turning ideas into interactive, user-friendly web applications.
-                        I'm always open to new opportunities and collaborations.  
                     </p>
                 
                 <div>

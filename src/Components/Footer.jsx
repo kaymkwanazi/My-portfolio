@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCopyright, FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa'
+import { FaCopyright, FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import logo from '../images/logo.png'
 import { FaRegCopyright } from 'react-icons/fa6'
@@ -27,9 +27,10 @@ export const Footer = () => {
               <div className='flex flex-col md:items-center'>
                 <h2 className='text-xs md:text-lg font-semibold'>Connect with me</h2>
                 <div className='flex flex-col  mt-4 space-y-4'>
-                  <FaFacebook className='text-blue-800 text-sm md:text-xl hover:text-blue-900'/>
-                  <FaInstagram className='text-pink-800 text-sm md:text-xl hover:text-pink-900' />
-                  <FaWhatsapp  className='text-green-800 text-sm md:text-xl hover:text-green-900'/>
+                  <FaFacebook className='text-blue-800 md:text-xl hover:text-blue-900'/>
+                  <FaInstagram className='text-pink-800 md:text-xl hover:text-pink-900' />
+                  <FaWhatsapp  className='text-green-800  md:text-xl hover:text-green-900'/>
+                  <FaLinkedin  className='text-blue-800  md:text-xl hover:text-blue-900'/>
                 </div>
               </div>
             </div>
