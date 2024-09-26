@@ -5,6 +5,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        darkPurple: '#2322cd',
+        lightPurple: '#7e08d6',
+      },
       keyframes: {
         rotate: {
           '0%': { transform: 'rotate(0deg)' },

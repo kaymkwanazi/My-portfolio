@@ -2,7 +2,7 @@ import React from 'react'
 import Kamo2 from '../images/kamo-no-bg.png'
 import { Link } from 'react-router-dom'
 import { TfiHandPointDown } from "react-icons/tfi";
-import { FaBootstrap, FaNodeJs, FaReact } from 'react-icons/fa';
+import { FaBootstrap, FaHandPointDown, FaNodeJs, FaReact } from 'react-icons/fa';
 import { VscVscode } from "react-icons/vsc";
 
 export const AboutComp = () => {
@@ -23,13 +23,18 @@ export const AboutComp = () => {
                
             </div>
             <div className='flex flex-col justify-center items-center'>
-                <h3 className=' italic md:text-3xl text-purple-600 mb-8'><TfiHandPointDown className='inline'/> About ME</h3>
+                <div className='bg-gradient-to-b from-darkPurple via-purple-500 to-lightPurple bg-clip-text text-transparent'>
+                    <h3 className='md:text-3xl font-bold mb-8'>ABOUT ME</h3>
+                </div>
                 <p className='text-2xl md:text-4xl mb-3'>Always Striving for Excellence</p>
                 <p className='text-xl mb-16'>With strong interpersonal-skills, clear communication and meticulous attention to detail, 
                 I am committed to delivering exceptional results in every project I take on.</p>
-                <Link to= '/about' className='flex justify-center'>
-                    <button className=' text-white rounded-2xl bg-purple-600 px-3 py-2 hover:bg-purple-700'>Know more</button>
-                </Link>
+                <div className='bg-gradient-to-r from-darkPurple to-lightPurple rounded-full'>
+                    <Link to= '/about' className='flex justify-center'>
+                        <button className='hover:bg-purple-900 rounded-full text-white px-3 py-2'>Know more</button>
+                    </Link>
+                </div>
+                
             </div>
         </div>
     </>

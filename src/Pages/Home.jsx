@@ -19,7 +19,7 @@ export const Home = () => {
                         <img src={kamo} className='w-1/2 h-3/4 mt-24 rounded-3xl'></img>
                     </div>    
                     <div className='flex flex-col justify-center text-center'> 
-                        <h1 className='text-white text-2xl md:text-5xl '><MdWavingHand size={42} className='inline text-yellow-400'/> Hey there, I'm Kamogelo Mkwanazi</h1>
+                        <h1 className='text-white text-2xl md:text-5xl '><MdWavingHand size={52} className='inline text-yellow-400'/> Hey there, I'm Kamogelo Mkwanazi</h1>
                         <p className='text-white text-xl md:text-xl pt-10'>A passionate front-end software developer using React and Node.js. 
                             Check out my projects below to see how I bring creativity and problem-solving together in code.
                         </p>
