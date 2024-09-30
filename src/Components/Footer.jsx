@@ -9,7 +9,7 @@ export const Footer = () => {
     
       <div className='bg-slate-400 p-4 text-gray-900'>
           <div className='container mx-auto px-4'>
-            <div className='grid cols-1 md:grid-cols-3'>
+            <div className='grid cols-1 md:grid-cols-3 gap-5'>
               <div>
                 <img src={logo} className='w-5 md:w-10'></img>
               </div>
@@ -25,8 +25,8 @@ export const Footer = () => {
               </div>
 
               <div className='flex flex-col md:items-center'>
-                <h2 className='text-xs md:text-lg font-semibold'>Connect with me</h2>
-                <div className='flex flex-col  mt-4 space-y-4'>
+                <h2 className='text-lg font-semibold'>Connect with me</h2>
+                <div className='flex flex-col mt-4 space-y-4'>
                   <FaFacebook className='text-blue-800 md:text-xl hover:text-blue-900'/>
                   <FaInstagram className='text-pink-800 md:text-xl hover:text-pink-900' />
                   <FaWhatsapp  className='text-green-800  md:text-xl hover:text-green-900'/>

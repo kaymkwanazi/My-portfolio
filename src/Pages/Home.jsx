@@ -31,7 +31,7 @@ export const Home = () => {
                         <p className='text-center mt-5 text-white'>Previous Projects  <FaArrowRight className='inline' /></p>
                     </Link>
                 </div>
-                <div className='container mx-auto px-4 mb-10'>
+                <div className='container mx-auto px-4 pb-10'>
                     <AboutComp />
                 </div>
                 
