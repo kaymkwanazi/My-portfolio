@@ -4,21 +4,22 @@ import 'react-circular-progressbar/dist/styles.css'
 
 export const ProgressBar = () => {
     const skills = [
-        { name: 'ReactJS', percentage: 50, color: '#264DE4' },
-        { name: 'HTML/CSS', percentage: 68, color: '#264DE4' },
-        { name: 'JavaScript', percentage: 68, color: '#264DE4' },
-        { name: 'C# Unity', percentage: 68, color: '#264DE4' },
-        { name: 'User Support', percentage: 68, color: '#264DE4' },
-        { name: 'MS 365', percentage: 68, color: '#264DE4' },
+        { name: 'ReactJS', percentage: 68, color: '#264DE4' },
+        { name: 'HTML', percentage: 75, color: '#19f505' },
+        { name: 'CSS', percentage: 60, color: '#e68701' },
+        { name: 'JavaScript', percentage: 68, color: '#f505eb' },
+        { name: 'C# Unity', percentage: 50, color: '#01dde6' },
+        { name: 'User Support', percentage: 80, color: '#f51b05' },
+        { name: 'MS 365', percentage: 80, color: '#8200ff' },
     ];
 
   return (
     <div className='flex items-center justify-center gap-10'>
         {skills.map((skill) => (
-          <div className='w-24'>
+          <div className='w-32'>
             <CircularProgressbar value={skill.percentage} text={`${skill.percentage}%`}
                 styles={buildStyles({
-                    textColor: 'red',
+                    textColor: 'white',
                     pathColor: skill.color,
                     trailColor: '#d6d6d6',
                 })}

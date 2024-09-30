@@ -9,7 +9,7 @@ export const AboutComp = () => {
   return (
     <>
         <div className='grid cols-1 md:grid-cols-2 text-white text-center'>
-            <div className='relative flex justify-center items-center min-h-screen'>
+            <div className='relative flex justify-center items-center my-32'>
                 <img src={Kamo2} className='relative z-10 w-60'></img> 
              {/* circular path for icons */}
                 <div className='absolute w-[400px] h-[400px] flex justify-center items-center border border-dashed border-pink-600 rounded-full'>
