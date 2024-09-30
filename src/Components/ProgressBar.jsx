@@ -6,7 +6,7 @@ export const ProgressBar = () => {
     const skills = [
         { name: 'ReactJS', percentage: 68, color: '#264DE4' },
         { name: 'HTML', percentage: 75, color: '#19f505' },
-        { name: 'CSS', percentage: 60, color: '#e68701' },
+        { name: 'TailwindCSS', percentage: 70, color: '#e68701' },
         { name: 'JavaScript', percentage: 68, color: '#f505eb' },
         { name: 'C# Unity', percentage: 50, color: '#01dde6' },
         { name: 'User Support', percentage: 80, color: '#f51b05' },

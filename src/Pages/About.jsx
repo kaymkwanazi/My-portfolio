@@ -1,6 +1,6 @@
 import React from 'react'
 import backgroundPic from '../images/background.jpg'
-import { FaCss3, FaHtml5, FaReact, FaNodeJs, FaBootstrap } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaReact, FaNodeJs, FaBootstrap, FaHandPointDown } from "react-icons/fa";
 import { TbAugmentedReality } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BiSupport } from "react-icons/bi";
@@ -18,7 +18,7 @@ export const About = () => {
                     <div className='grid cols-1 md:grid-cols-2  gap-x-20'>
                         {/* Col 1 */}
                         <div>
-                            <h3 className='text-center pb-10 pt-36 text-2xl md:text-4xl text-white'>About Me</h3>
+                            <h3 className='text-center pb-10 pt-36 text-2xl md:text-6xl font-semibold bg-gradient-to-b from-darkPurple via-lightPurple to-purple-600 bg-clip-text text-transparent'>Know Me <FaHandPointDown size={48} className='inline text-purple-600' /></h3>
                             <p className='text-white text-center text-lg md:text-xl'>My name is Kamogelo Patience Mkwanazi, a passionate and dedicated Computer Systems Engineer with a love for web development.
                                 My journey began at the Tshwane University of Technology where I discovered my love for technology. Since then, I've had an
                                 opportunity to work on various projects. Currently I'm focused on web development, mainly front-end development. I love turning ideas into interactive, user-friendly web applications.
@@ -40,7 +40,7 @@ export const About = () => {
                     </div>
                     {/* skills section */}
                     <div className='mb-28'>
-                        <h3 className='text-center mb-16 text-2xl md:text-4xl text-white'>My Skills</h3>
+                        <h3 className='text-center mb-16 text-2xl md:text-6xl font-semibold bg-gradient-to-b from-darkPurple via-lightPurple to-purple-600 bg-clip-text text-transparent'>My Skills</h3>
                         <div className="flex justify-around items-center text-white">
                            <ProgressBar />
                         </div>
