@@ -1,0 +1,78 @@
+
+{
+    "projects": [
+
+        {
+            "Id" : 1,
+            "title": "Movie Blog",
+            "description": "A small blog featuring 3 of my all time favorite movies.",
+            "image": {
+                "src": "src/images/movie-blog.png",
+                "alt": "Movie blog Image",
+                "onClick": "window.location.href='https://movie-blog-six.vercel.app/';"
+            },
+
+            "link": "https://movie-blog-six.vercel.app/"
+        },
+        {
+            "Id" : 2,
+            "title": "Destinations",
+            "description": "Top 50 destinations to travel to all over the world.",
+            "image": {
+                "src": "src/images/destinations.png",
+                "alt": "Destinations Image",
+                "onClick": "window.location.href='https://destinations-omega.vercel.app/';"
+            },
+
+            "link": "https://destinations-omega.vercel.app/"
+        },
+        {
+            "Id" : 3,
+            "title": "Dronotics",
+            "description": "The future of drones",
+            "image": {
+                "src": "src/images/drones.png",
+                "alt": "Drones Image",
+                "onClick": "window.location.href='https://drones-webpage.vercel.app/';"
+            },
+
+            "link": "https://drones-webpage.vercel.app/"
+        },
+        {
+            "Id" : 4,
+            "title": "The Pizza Shop",
+            "description": "This is a web page I designed for a fictional pizza shop.",
+            "image": {
+                "src": "src/images/pizza.png",
+                "alt": "Pizza shop Image",
+                "onClick": "window.location.href='https://pizza-shop-taupe-eight.vercel.app/';"
+            },
+
+            "link": "https://pizza-shop-taupe-eight.vercel.app/"
+        },
+        {
+            "Id" : 5,
+            "title": "Melula clone",
+            "description": "This is a clone of the Melula clothing store web page.",
+            "image": {
+                "src": "src/images/melula-clone.png",
+                "alt": "Movie blog Image",
+                "onClick": "window.location.href='https://melula-clone.vercel.app/';"
+            },
+
+            "link": "https://melula-clone.vercel.app/"
+        },
+        {
+            "Id" : 6,
+            "title": "Movie Blog",
+            "description": "Movie Blog",
+            "image": {
+                "src": "src/images/movie-blog.png",
+                "alt": "Movie blog Image",
+                "onClick": "window.location.href='https://movie-blog-six.vercel.app/';"
+            },
+
+            "link": "https://movie-blog-six.vercel.app/"
+        }
+    ]
+}
