@@ -6,10 +6,13 @@ import { FaMapLocationDot } from "react-icons/fa6";
 export const Contact = () => {
   return (
     <div>
-        <div className='relative h-screen bg-cover bg-center' 
+        <div className='relative min-h-screen bg-cover bg-center' 
             style={{backgroundImage: `url(${backgroundPic})`}}>
-        <div className='absolute inset-0 flex flex-col items-center justify-center'>
-            <h2 className='text-2xl md:text-4xl text-white'> Contact Me</h2>
+        <div className='flex flex-col items-center justify-center'>
+            <div className='font-semibold bg-gradient-to-t from-darkPurple via-lightPurple to-purple-600 bg-clip-text text-transparent'>
+                <h2 className='text-5xl pt-32'> Contact Me</h2>
+            </div>
+            
             <div className='container mx-auto px-4 py-12'>
                  <div className='grid gap-8 sm:grid-cols-1 md:grid-cols-2'>
                     <div className='bg-white rounded-lg shadow-md p-6'>
@@ -26,7 +29,7 @@ export const Contact = () => {
                     </div>
                     <div className='flex items-center mb-4'>
                         <FaMapLocationDot className='text-blue-500 mr-2' />
-                        <p> 10968 Mangai street, Pimville <br></br> Soweto, South Africa</p>
+                        <p> 275 Helen Joseph street <br></br> Pretoria CBD, South Africa</p>
                     </div>
                     </div>
 
@@ -48,8 +51,8 @@ export const Contact = () => {
                     <label className='block text-gray-700 mb-2' htmlFor='Name'>Message</label>
                     <textarea className='w-full p-2 border border-gray-400 rounded' placeholder="Write Message" id=''></textarea>
                     </div>
-
-                    <button type='submit' className='rounded-full px-3 py-3 text-sm text-white bg-violet-500 hover:bg-violet-600'>Send Message</button>
+                    
+                    <button type='submit' className='rounded-full px-3 py-3 text-sm bg-gradient-to-r from-darkPurple to-lightPurple'>Send Message</button>
                 </form>
                 </div>
                 </div>
