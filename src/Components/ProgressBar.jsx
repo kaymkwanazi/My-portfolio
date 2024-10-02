@@ -14,9 +14,9 @@ export const ProgressBar = () => {
     ];
 
   return (
-    <div className='flex items-center justify-center gap-10'>
+    <div className='md:flex items-center justify-center gap-10'>
         {skills.map((skill) => (
-          <div className='w-32'>
+          <div className='w-32 pb-2'>
             <CircularProgressbar value={skill.percentage} text={`${skill.percentage}%`}
                 styles={buildStyles({
                     textColor: 'white',

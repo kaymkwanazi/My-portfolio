@@ -9,15 +9,15 @@ const ProjectsList = () => {
     }, []);
 
   return (
-    <div className="text-white container mx-auto px-4">
+    <div className=" container mx-auto px-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <div
             key={project.Id}
-            className="border p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+            className="border bg-slate-200 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
           >
             <h2 className="text-xl font-semibold mb-2">{project.title}</h2>
-            <p className="mb-4">{project.description}</p>
+            <p className="text-gray-600 mb-4">{project.description}</p>
             <img
               src={project.image.src}
               alt={project.image.alt}

@@ -61,18 +61,7 @@
             },
 
             "link": "https://melula-clone.vercel.app/"
-        },
-        {
-            "Id" : 6,
-            "title": "Movie Blog",
-            "description": "Movie Blog",
-            "image": {
-                "src": "src/images/movie-blog.png",
-                "alt": "Movie blog Image",
-                "onClick": "window.location.href='https://movie-blog-six.vercel.app/';"
-            },
-
-            "link": "https://movie-blog-six.vercel.app/"
         }
+        
     ]
 }
