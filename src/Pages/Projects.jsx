@@ -19,7 +19,7 @@ export const Projects = () => {
             <div className='container mx-auto px-4 mb-28'>
                 <div>
                     <h3 className='text-center text-2xl md:text-4xl text-white mt-20 mb-10'>My Projects</h3>
-                    <p className='text-white text-lg md:text-xl text-center mb-10'>Listed below are some of the projects I have worked on thus far.</p>
+                    
                 </div>
 
                     <div className='flex grow'>
