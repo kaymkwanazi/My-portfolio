@@ -19,8 +19,8 @@ export const Home = () => {
                         <img src={kamo} className='w-1/2 h-3/4 mt-24 rounded-3xl'></img>
                     </div>    
                     <div className='flex flex-col justify-center text-center'> 
-                        <div className='flex justify-center mb-5'>
-                            <MdWavingHand size={76} className=' text-yellow-400'/> 
+                        <div className='flex justify-center mb-5 text-yellow-400 animate-wave origin-top-hand'>
+                            <MdWavingHand size={76} className=' '/> 
                         </div>
                         <h1 className='text-white text-3xl md:text-5xl '>Hey there, I'm Kamogelo Mkwanazi</h1>
                         <p className='text-white text-xl md:text-xl pt-10 mb-10'>A passionate front-end software developer using React and Node.js. 
