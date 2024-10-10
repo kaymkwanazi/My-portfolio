@@ -5,7 +5,7 @@ const ProjectsList = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    setProjects(projectsData.projects); // Set the data from the imported JSON
+    setProjects(projectsData.projects); 
     }, []);
 
   return (
@@ -14,7 +14,7 @@ const ProjectsList = () => {
         {projects.map((project) => (
           <div
             key={project.Id}
-            className="border bg-slate-200 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+            className="border bg-slate-200 p-4 m-3 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
           >
             <h2 className="text-xl font-semibold mb-2">{project.title}</h2>
             <p className="text-gray-600 mb-4">{project.description}</p>

@@ -18,7 +18,7 @@ export const About = () => {
                     <div className='grid cols-1 md:grid-cols-2  gap-x-20'>
                         {/* Col 1 */}
                         <div>
-                            <h3 className='text-center pb-10 pt-36 text-5xl font-semibold bg-gradient-to-t from-darkPurple via-lightPurple to-purple-600  bg-clip-text text-transparent'>About Me </h3>
+                            <h3 className='text-center pb-10 pt-36 text-5xl font-bold bg-gradient-to-t from-darkPurple via-lightPurple to-purple-600  bg-clip-text text-transparent'>About Me </h3>
                             <p className='text-white text-center text-md md:text-xl'>My name is Kamogelo Patience Mkwanazi, a passionate and dedicated Computer Systems Engineer with a love for web development.
                                 My journey began at the Tshwane University of Technology where I discovered my love for technology. Since then, I've had an
                                 opportunity to work on various projects. Currently I'm focused on web development, mainly front-end development. I love turning ideas into interactive, user-friendly web applications.
@@ -40,7 +40,7 @@ export const About = () => {
                     </div>
                     {/* skills section */}
                     <div className='pb-28'>
-                        <h3 className='text-center pb-16 text-5xl font-semibold bg-gradient-to-b from-darkPurple via-lightPurple to-purple-600 bg-clip-text text-transparent'>My Skills</h3>
+                        <h3 className='text-center pb-16 text-5xl font-bold bg-gradient-to-b from-darkPurple via-lightPurple to-purple-600 bg-clip-text text-transparent'>My Skills</h3>
                         <div className="flex justify-around items-center text-white">
                            <ProgressBar />
                         </div>

@@ -17,7 +17,7 @@ export const Projects = () => {
             style={{backgroundImage: `url(${backgroundPic})`}}>
           <div className='flex flex-col justify-center min-h-screen'>
             <div className='container mx-auto px-4 mb-28'>
-                <div className='font-semibold bg-gradient-to-t from-darkPurple via-lightPurple to-purple-600 bg-clip-text text-transparent'>
+                <div className='font-bold bg-gradient-to-t from-darkPurple via-lightPurple to-purple-600 bg-clip-text text-transparent'>
                     <h3 className='text-center text-5xl pt-32 pb-20'>My Projects</h3>
                     
                 </div>

@@ -9,7 +9,7 @@ export const Contact = () => {
         <div className='relative min-h-screen bg-cover bg-center' 
             style={{backgroundImage: `url(${backgroundPic})`}}>
         <div className='flex flex-col items-center justify-center'>
-            <div className='font-semibold bg-gradient-to-t from-darkPurple via-lightPurple to-purple-600 bg-clip-text text-transparent'>
+            <div className='font-bold bg-gradient-to-t from-darkPurple via-lightPurple to-purple-600 bg-clip-text text-transparent'>
                 <h2 className='text-5xl pt-32'> Contact Me</h2>
             </div>
             
@@ -52,7 +52,7 @@ export const Contact = () => {
                     <textarea className='w-full p-2 border border-gray-400 rounded' placeholder="Write Message" id=''></textarea>
                     </div>
                     
-                    <button type='submit' className='rounded-full px-3 py-3 text-sm bg-gradient-to-r from-darkPurple to-lightPurple'>Send Message</button>
+                    <button type='submit' className='rounded-full px-3 py-3 text-white font-semibold bg-gradient-to-r from-darkPurple to-lightPurple'>Send Message</button>
                 </form>
                 </div>
                 </div>
