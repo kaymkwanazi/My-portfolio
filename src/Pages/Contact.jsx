@@ -52,7 +52,7 @@ export const Contact = () => {
                     <textarea className='w-full p-2 border border-gray-400 rounded' placeholder="Write Message" id=''></textarea>
                     </div>
                     
-                    <button type='submit' className='rounded-full px-3 py-3 text-white font-semibold bg-gradient-to-r from-darkPurple to-lightPurple'>Send Message</button>
+                    <button type='submit' className='rounded-full px-3 py-3 text-white text-xs font-semibold bg-gradient-to-r from-darkPurple to-lightPurple'>Send Message</button>
                 </form>
                 </div>
                 </div>
