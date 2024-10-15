@@ -22,7 +22,7 @@ export const Home = () => {
                         <div className='flex justify-center mb-5 text-yellow-400 animate-wave origin-top-hand'>
                             <MdWavingHand size={76} className=' '/> 
                         </div>
-                        <h1 className='text-white text-3xl md:text-5xl '>Hey there, I'm Kamogelo Mkwanazi</h1>
+                        <h1 className='text-white text-4xl md:text-5xl'>Hey there, I'm Kamogelo Mkwanazi</h1>
                         <p className='text-white text-xl md:text-xl pt-10 mb-10'>A passionate front-end software developer using React and Node.js. 
                             Check out my projects below to see how I bring creativity and problem-solving together in code.
                         </p>
