@@ -7,7 +7,7 @@
             "title": "Movie Blog",
             "description": "A small blog featuring 3 of my all time favorite movies.",
             "image": {
-                "src": "src/images/movie-blog.png",
+                "src": "/ProjectPics/movie-blog.png",
                 "alt": "Movie blog Image",
                 "onClick": "window.location.href='https://movie-blog-six.vercel.app/';"
             },
