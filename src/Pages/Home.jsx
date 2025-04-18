@@ -6,6 +6,9 @@ import Slideshow from '../Components/Slideshow'
 import { FaArrowRight } from 'react-icons/fa'
 import { MdWavingHand } from 'react-icons/md'
 import { AboutComp } from '../Components/AboutComp'
+import bg1 from '../../public/ProjectsPics/background/89787.jpg'
+import bg2 from '../../public/ProjectsPics/background/5590457.jpg'
+import bg3 from '../../public/ProjectsPics/background/bg3.jpg'
 
 export const Home = () => {
   return (
