@@ -7,7 +7,8 @@ import { BiSupport } from "react-icons/bi";
 import { VscVscode } from "react-icons/vsc";
 import kay from '../images/kamo-no-bg.png'
 import { ProgressBar } from '../Components/ProgressBar';
-
+import kay2 from '../images/about1.png';
+import kay3 from '../images/about2.png';
 export const About = () => {
   return (
     <div>
@@ -26,8 +27,12 @@ export const About = () => {
                         </div>
                         {/* second column */}
                         <div className='relative flex justify-center items-center h-screen'>
-                            <img src={kay} className='relative z-10 w-60'></img> 
-                            <div className='absolute w-[400px] h-[400px] flex justify-center items-center border border-dashed border-pink-600 rounded-full'>
+                            <img 
+                                src={kay3} 
+                                className='relative z-10 w-[400px] h-[400px] rounded-full object-cover -translate-y-2' 
+                                alt="Profile"
+                            />
+                            <div className='absolute w-[400px] h-[400px] flex justify-center items-center border border-dashed rounded-full' style={{ borderColor: '#E2E7F3' }}>
                                 <div className='absolute w-full h-full animate-rotate-icons'>
                                     <FaReact size={46} className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-blue-500 bg-white px-2 rounded-full'/>
                                     <FaNodeJs size={46} className='absolute right-0 top-1/2 transform translate-x-5 -translate-y-1/2 text-teal-500 bg-white px-2 rounded-full'/>
@@ -35,7 +40,6 @@ export const About = () => {
                                     <FaBootstrap size={46} className='absolute left-0 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-purple-600 bg-white p-2 rounded-full'/>
                                 </div>
                             </div>
-               
                         </div>
                     </div>
                     {/* skills section */}
